@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .main {
+            display: flex;
+            width: 100%;
+
+        }
+
+        .sub-text {
+            text-align: right;
+            margin-top: 10px;
+            width: 200px;
+        
+        }
+
+        .sub-text p,
+        .sub-text h1 {
+            padding: 10px;
+        }
+        .sub-text h1{
+            font-size: 30px;
+        }
+        .sub-text p{
+            font-size: 15px;
+        }
+        .img-path {
+            width: 90%;
+            height: 620px;
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            text-align: center;
+            font-size: 50px;
+            gap: 10px;
+
+
+        }
+
+
+
+        .img-1 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    background: url(StockCake-Astronaut\ in\ space_1723915440.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+        .img-2 {
+
+            grid-column: 5/span 2;
+            background: url(img-2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-3 {
+            grid-column: 1/span;
+            background: url(img-3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-4 {
+            grid-column: 2/span 4;
+            background: url(img-4.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .img-5 {
+            background: url(img-5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-6 {
+            grid-column: 1/span 3;
+            background: url(img-6.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .img-7 {
+            grid-column: 4 /span 3;
+            background: url(img-7.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-8 {
+            grid-column: 1 /span 2;
+            background: url(img-8.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-9 {
+            grid-column: 3/span 2;
+            background: url(img-9.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img-10 {
+            grid-column: 5/span 2;
+            background: url(img-10.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .icon {
+            display: inline;
+            
+            
+        }
+        .icon i{
+            margin: 10px;
+            color: #fff;
+        }
+        .sub-text h1 a {
+    text-decoration: none;
+}
+.sub-text p a {
+    text-decoration: none;
+}
+    </style>
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="img-path">
+            <div class="img-1"></div>
+            <div class="img-2"></div>
+            <div class="img-3"></div>
+            <div class="img-4"></div>
+            <div class="img-5"></div>
+            <div class="img-6"></div>
+            <div class="img-7"></div>
+            <div class="img-8"></div>
+            <div class="img-9"></div>
+            <div class="img-10"></div>
+        </div>
+        <div class="sub-text">
+            <div>
+                <h1><a href="#">SHUTTER</a></h1>
+            </div>
+            <div>
+                <p><a href="#">HOME</a></p>
+            </div>
+            <div>
+                <p><a href="#">PHOTOS</a></p>
+            </div>
+            <div>
+                <p><a href="#">BIO</a></p>
+            </div>
+            <div>
+                <p><a href="#">BLOG</a></p>
+            </div>
+            <div>
+                <p><a href="#">CONTACT</a></p>
+            </div>
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+        </div>
+    </div>
+</body>
+
+</html>
